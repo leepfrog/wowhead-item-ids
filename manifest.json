@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Wowhead list",
+  "version": "1.0",
+  "description": "Grabs item list of wow items",
+  "content_scripts": [
+    {
+      "matches": ["*://*.wowhead.com/*"],
+      "js": ["wowhead.js"]
+    }
+  ]
+}
